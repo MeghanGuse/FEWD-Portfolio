@@ -1,15 +1,38 @@
-#logo {
 
-}
 
-nav {
-
-}
-
-.text {
-	font-family: 'Questrial', sans-serif;
-}
 
 .italics {
 	font-style: italic;
+}
+
+
+body {
+	display: flex;
+	flex-direction: column;
+	width: 950px;
+	font-family: 'Questrial', sans-serif;
+	margin: auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	background: pink;
+}
+
+main {
+	margin: auto;
+	height: 600px;
+	width: 700px;
+	border: 1px solid black;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+}
+
+footer {
+	background: #98FB98;
+	display: inline;
 }
