@@ -6,7 +6,10 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
 	<link rel="stylesheet" type="text/css" href="Styles/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-	<meta name='viewport' content='width=device-width, initial-scale=1'> <!--What makes the site responsive. No more pinch to zoom!-->
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' href='Styles/form.css'>
+	<script src='jquery.js'></script>
+	<script src='parsley.min.js'></script>
 </head>
 <body>
 	<header>
@@ -19,10 +22,27 @@
 			<a href="./contact.html">Contact</a>
 		</nav>
 	</header>
-	<main>
-		<form></form> <!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form , Float right-->
-		<img src="anotherVickipic.jpg" alt="Contact">
-	</main>
+	<section class='flex-container'>
+
+		<form data-parsley-validate>
+			<h3>Questions? Concerns?  Jokes? Contact me!</h3>
+				Name: <br />
+				<input type='text' name='name'><br />
+				Email: <br />
+				<input type='text' email='email'><br />
+				Subject: <br />
+				<input type='text' subject='subject'><br />
+				Message: <br />
+				<textarea name='message' rows='10' cols='50'>Hello!</textarea>
+		</form>
+		<div class='flex-image'>
+		<!-- placeholder -->
+			<img src="https://media3.giphy.com/media/sDBvUEcJjkZO/200_s.gif" alt="Contact">
+			<h3>Thank you!</h3>
+		</div>
+
+
+	</section>
 	<footer>
 		<h6>Meghan Guse&copy; 2017</h6>
 	</footer> <!-- Include twitter and facebook links -->
