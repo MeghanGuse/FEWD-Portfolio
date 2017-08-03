@@ -35,10 +35,6 @@ main {
 	height: 600px;
 }
 
-
-/*WHY YOU NO WORK*/
-/*SERIOUSLY, WHY. YOU'RE KILLING ME.*/
-/*DO YOU WANT ME TO SUFFER? IS THIS YOUR GOAL?*/
 .flex-image {
 	flex-direction: row;
 	max-width: 40vh;
@@ -62,4 +58,8 @@ nav {
 footer {
 	background: #98FB98;
 	display: inline;
+}
+
+iframe {
+	margin: 20px;
 }
