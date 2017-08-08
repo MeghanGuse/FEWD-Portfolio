@@ -18,6 +18,26 @@
 			<a href="./news.html">News</a>
 			<a href="./contact.html">Contact</a>
 		</nav>
+
+		<!-- /**
+	 * Import all page components here
+	 */
+	import App from './components/App';
+	import MainPage from './components/MainPage';
+	import SomePage from './components/SomePage';
+	import SomeOtherPage from './components/SomeOtherPage';
+
+	/**
+	 * All routes go here.
+	 * Don't forget to import the components above after adding new route.
+	 */
+	export default (
+	  <Route path="/" component={App}>
+	    <IndexRoute component={MainPage} />
+	    <Route path="/some/where" component={SomePage} />
+	    <Route path="/some/otherpage" component={SomeOtherPage} />
+	  </Route>
+	);	 -->
 	</header>
 	<section class='flex-container'>
 		<!-- <div class='flex-image'> -->
@@ -29,6 +49,7 @@
 	</section>
 	<footer>
 		<h6>Meghan Guse&copy; 2017</h6>
+		<img src='nucleo-social-icons/social-1_logo-facebook.svg' />
 	</footer> <!-- Include twitter and facebook links -->
 </body>
 </html>

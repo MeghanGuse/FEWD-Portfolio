@@ -1,17 +1,38 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './placeholderlogo.jpg';
 import './App.css';
 import HomeCarousel from './carousel/carousel.js';
-import { Router, Route, Switch } from 'react-router';
+import Landing from './landing.js';
+import About from './about.js';
+import Recordings from './recordings.js';
+import News from './news.js';
+import Contact from './contact.js';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom';
+import Test from './test.js';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-      <HomeCarousel/>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <Router>
+    <header>
+      <nav>
+        <a><Link to="/">Home</Link></a>
+        <a><Link to="./about.js">About</Link></a>
+        <a><Link to='./recordings.js'>Recordings</Link></a>
+        <a><Link to='./news.js'>News</Link></a>
+        <a><Link to='./contact.js'>Contact</Link></a>
+      </nav>
+
+      <Route exact path="/" component={Landing}/>
+      <Route exact path="./about.js" component={About}/>
+      <Route exact path='./recordings.js' component={Recordings}/>
+      <Route exact path='./news.js' component={News}/>
+      <Route exact path='./contact.js' component={Contact}/>
+
+    </header>
+  </Router>
+)
 
 export default App;

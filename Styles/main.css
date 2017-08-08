@@ -63,3 +63,9 @@ footer {
 iframe {
 	margin: 20px;
 }
+
+/*media queries*/
+
+@media (max-width: 400px) {
+
+}
