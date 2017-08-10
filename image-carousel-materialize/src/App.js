@@ -12,17 +12,17 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import Test from './test.js';
+
 
 const App = () => (
   <Router>
     <header>
       <nav>
         <a><Link to="/">Home</Link></a>
-        <a><Link to="./about.js">About</Link></a>
-        <a><Link to='./recordings.js'>Recordings</Link></a>
-        <a><Link to='./news.js'>News</Link></a>
-        <a><Link to='./contact.js'>Contact</Link></a>
+        <a><Link to="/about">About</Link></a>
+        <a><Link to='/recordings'>Recordings</Link></a>
+        <a><Link to='/news'>News</Link></a>
+        <a><Link to='/contact'>Contact</Link></a>
       </nav>
 
       <Route exact path="/" component={Landing}/>
