@@ -12,24 +12,25 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-
+import Styles from 'react-materialize';
+import styles from './Styles/main.css';
 
 const App = () => (
   <Router>
     <header>
-      <nav>
-        <a><Link to="/">Home</Link></a>
-        <a><Link to="/about">About</Link></a>
-        <a><Link to='/recordings'>Recordings</Link></a>
-        <a><Link to='/news'>News</Link></a>
-        <a><Link to='/contact'>Contact</Link></a>
+      <nav className='react-nav'>
+        <span><Link to="/">Home</Link></span>
+        <span><Link to="/about">About</Link></span>
+        <span><Link to='/recordings'>Recordings</Link></span>
+        <span><Link to='/news'>News</Link></span>
+        <span><Link to='/contact'>Contact</Link></span>
       </nav>
 
       <Route exact path="/" component={Landing}/>
-      <Route exact path="./about.js" component={About}/>
-      <Route exact path='./recordings.js' component={Recordings}/>
-      <Route exact path='./news.js' component={News}/>
-      <Route exact path='./contact.js' component={Contact}/>
+      <Route exact path="/about" component={About}/>
+      <Route exact path='/recordings' component={Recordings}/>
+      <Route exact path='/news' component={News}/>
+      <Route exact path='/contact' component={Contact}/>
 
     </header>
   </Router>

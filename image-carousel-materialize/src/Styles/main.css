@@ -1,32 +1,42 @@
+/*react index.html css*/
 
-
-
-.italics {
-	font-style: italic;
-}
-
-
-body {
-	display: flex;
-	flex-direction: column;
-	font-family: 'Questrial', sans-serif;
-	margin: auto;
-}
-
-header {
+.meghanguse-header {
 	display: flex;
 	justify-content: space-around;
 	background: pink;
 }
 
-main {
+.react-nav {
+	display: inline-block;
+	float: right;
+}
+
+.meghan.guse-footer {
+	background: #98FB98;
+	display: inline;
+}
+
+.meghan.guse-main {
 	margin: auto;
 	height: 600px;
 	width: 70%;
 	border: 1px solid black;
 }
 
-.flex-container {
+.meghanguse-body {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Questrial', sans-serif;
+	margin: auto;
+}
+
+/*about page css*/
+
+.opera-names {
+	font-style: italic;
+}
+
+.about-flex-container {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -35,34 +45,60 @@ main {
 	height: 600px;
 }
 
-.flex-image {
+.about-flex-image {
 	flex-direction: row;
 	max-width: 40vh;
 	min-width: 40vh;
 	margin-right: 3rem;
 }
 
-form {
-	flex-direction: row;
-}
-
-.flex-text {
+.about-flex-text {
 	flow-direction: row;
 }
 
-nav {
-	display: inline-block;
-	float: right;
+/*recordings page css*/
+
+.recording-flex-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 70%;
+	margin: auto;
+	height: 600px;
 }
 
-footer {
-	background: #98FB98;
-	display: inline;
+.recording-flex-embed {
+	flow-direction: row;
 }
 
-iframe {
-	margin: 20px;
+/*news page css*/
+
+
+/*contact page css*/
+.contactform-flex-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 70%;
+	margin: auto;
+	height: 600px;
 }
+
+.contactform-flex-image {
+	flex-direction: row;
+	max-width: 40vh;
+	min-width: 40vh;
+	margin-right: 3rem;
+}
+.contactform-form {
+	flex-direction: row;
+}
+
+.contactform-text {
+	flex-direction: row;
+}
+
+
 
 /*media queries*/
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Card, Row, Col, Carousel } from 'react-materialize';
 
+
 class HomeCarousel extends Component {
   render() {
     return (
