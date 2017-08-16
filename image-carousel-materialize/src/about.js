@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     let altText = 'Credit: Benjeman Nichols';
     return (
-      <body>
+      <body className='meghanguse-body'>
         <section className='about-flex-container'>
         <div className='about-flex-image'>
           <img src='HeadshotImage' className='flex-image' alt='Credit: Benjeman Nichols'/>

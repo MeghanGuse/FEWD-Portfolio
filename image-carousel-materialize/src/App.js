@@ -19,11 +19,12 @@ const App = () => (
   <Router>
     <header>
       <nav className='react-nav'>
-        <span><Link to="/">Home</Link></span>
-        <span><Link to="/about">About</Link></span>
-        <span><Link to='/recordings'>Recordings</Link></span>
-        <span><Link to='/news'>News</Link></span>
-        <span><Link to='/contact'>Contact</Link></span>
+        <span className='react-nav-links'><Link to='/contact'>Contact</Link></span>
+        <span className='react-nav-links'><Link to='/news'>News</Link></span>
+        <span className='react-nav-links'><Link to='/recordings'>Recordings</Link></span>
+        <span className='react-nav-links'><Link to="/about">About</Link></span>
+        <span className='react-nav-links'><Link to="/">Home</Link></span>
+
       </nav>
 
       <Route exact path="/" component={Landing}/>

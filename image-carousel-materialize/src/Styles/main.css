@@ -1,26 +1,34 @@
 /*react index.html css*/
 
-.meghanguse-header {
-	display: flex;
-	justify-content: space-around;
-	background: pink;
+.react-nav-links {
+	display: inline-block;
+	float: right;
+	padding: 1rem;
 }
 
-.react-nav {
-	display: inline-block;
+.react-nav{
+	background: #58beba;
+}
+
+.meghanguse-header {
+	margin: auto;
+}
+.meghanguse-footer {
+	background: #58beba;
+	display: inline;
+	height: 30px;
+}
+
+.footer-image {
+	max-height: 30px;
+	max-width: 30px;
 	float: right;
 }
 
-.meghan.guse-footer {
-	background: #98FB98;
-	display: inline;
-}
-
-.meghan.guse-main {
+.meghanguse-main {
 	margin: auto;
 	height: 600px;
 	width: 70%;
-	border: 1px solid black;
 }
 
 .meghanguse-body {
@@ -28,6 +36,8 @@
 	flex-direction: column;
 	font-family: 'Questrial', sans-serif;
 	margin: auto;
+	width: 100%;
+	background: #ccebea;
 }
 
 /*about page css*/
@@ -98,10 +108,82 @@
 	flex-direction: row;
 }
 
+#phone {
 
+}
+
+#laptop {
+
+}
+
+#larger-desktop {
+
+}
 
 /*media queries*/
 
+/*landing*/
 @media (max-width: 400px) {
+
+}
+
+@media (max-width: 610px) {
+
+}
+
+@media (max-width: 1080px) {
+
+}
+
+/*about*/
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 610px){
+
+}
+
+@media (max-width: 1080px) {
+
+}
+
+/*recordings*/
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 610px) {
+
+}
+
+@media (max-width: 1080px) {
+
+}
+
+/*news*/
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 610px) {
+
+}
+
+@media (max-width: 1080px) {
+
+}
+
+/*contact*/
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 610px) {
+
+}
+
+@media (max-width: 1080px) {
 
 }

@@ -5,7 +5,7 @@ import Iframe from 'react-iframe'
 class Recordings extends Component {
   render() {
     return (
-        <main className='meghan.guse-main'>
+        <body className='meghanguse-body'>
           <article className='recording-flex-container'>
     			  <section className='recording-flex-embed'>
              <Iframe url="https://open.spotify.com/embed/track/0yh6rOLx0Tfhgs9xc66khd"
@@ -32,7 +32,7 @@ class Recordings extends Component {
                 allowFullScreen/>
              </section>
           </article>
-    	  </main>
+    	  </body>
     );
   }
 }

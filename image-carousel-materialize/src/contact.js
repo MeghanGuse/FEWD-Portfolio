@@ -5,10 +5,10 @@ class Contact extends Component {
   render() {
     let altText = 'This is a placeholder';
     return (
-    <main className='meghan.guse-main'>
+    <body className='meghanguse-body'>
       <section className='contactform-flex-container'>
     		<form className='contactform-form' action='https://www.enformed.io/aqpqxmau'>
-    			<h3>Questions? Concerns?  Jokes? Contact me!</h3>
+    			<h5>Questions? Concerns?  Jokes? Contact me!</h5>
     				Name: <br />
     				<input type='text' name='name'/><br />
     				Email: <br />
@@ -26,7 +26,7 @@ class Contact extends Component {
     			<h3>Thank you!</h3>
     		</div>
     	</section>
-    </main>
+    </body>
     );
   }
 }
