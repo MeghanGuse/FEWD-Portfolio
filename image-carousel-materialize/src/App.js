@@ -32,7 +32,6 @@ const App = () => (
       <Route exact path='/recordings' component={Recordings}/>
       <Route exact path='/news' component={News}/>
       <Route exact path='/contact' component={Contact}/>
-
     </header>
   </Router>
 )

@@ -37,7 +37,7 @@
 	font-family: 'Questrial', sans-serif;
 	margin: auto;
 	width: 100%;
-	background: #ccebea;
+	background: #eef8f8;
 }
 
 /*about page css*/
@@ -109,81 +109,103 @@
 }
 
 #phone {
-
+		flex-direction: column;
+		max-width: 40vh;
+		min-width: 40vh;
+		margin-right: 3rem;
 }
 
 #laptop {
 
 }
 
-#larger-desktop {
 
-}
 
 /*media queries*/
 
 /*landing*/
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
 
 }
 
 @media (max-width: 610px) {
 
-}
+}*/
 
-@media (max-width: 1080px) {
-
-}
 
 /*about*/
 
 @media (max-width: 400px) {
-
+	.about-flex-image {
+		flex-direction: column;
+		max-width: 40vh;
+		min-width: 40vh;
+		margin-right: 3rem;
+	}
 }
 
 @media (max-width: 610px){
-
-}
-
-@media (max-width: 1080px) {
-
+	.about-flex-image {
+		flex-direction: column;
+		max-width: 40vh;
+		min-width: 40vh;
+		margin-right: 3rem;
+	}
 }
 
 /*recordings*/
 @media (max-width: 400px) {
-
+	.recording-flex-embed {
+		flow-direction: column;
+	}
 }
 
 @media (max-width: 610px) {
-
-}
-
-@media (max-width: 1080px) {
-
+	.recording-flex-embed {
+		flow-direction: column;
+	}
 }
 
 /*news*/
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
 
 }
 
 @media (max-width: 610px) {
 
-}
+}*/
 
-@media (max-width: 1080px) {
 
-}
 
 /*contact*/
 @media (max-width: 400px) {
+	.contactform-flex-image {
+		flex-direction: column;
+		max-width: 40vh;
+		min-width: 40vh;
+		margin-right: 3rem;
+	}
+	.contactform-form {
+		flex-direction: column;
+	}
 
+	.contactform-text {
+		flex-direction: column;
+	}
 }
 
 @media (max-width: 610px) {
+	.contactform-flex-image {
+		flex-direction: column;
+		max-width: 40vh;
+		min-width: 40vh;
+		margin-right: 3rem;
+	}
+	.contactform-form {
+		flex-direction: column;
+	}
 
-}
-
-@media (max-width: 1080px) {
-
+	.contactform-text {
+		flex-direction: column;
+	}
 }

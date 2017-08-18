@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
 import { Button, Card, Row, Col, Carousel } from 'react-materialize';
+import HeadshotImage from '../images/headshot.jpg';
+import Maskarade from '../images/maskarade.png';
+import BachNyanCat from '../images/nyan.jpg';
+import SportsMedley from '../images/sports.jpg';
 
 
 class HomeCarousel extends Component {
   render() {
     return (
       <Carousel images={[
-'https://lorempixel.com/250/250/nature/1',
-'https://lorempixel.com/250/250/nature/2',
-'https://lorempixel.com/250/250/nature/3',
-'https://lorempixel.com/250/250/nature/4',
-'https://lorempixel.com/250/250/nature/5'
+HeadshotImage,
+SportsMedley,
+Maskarade,
+BachNyanCat,
+'https://media1.fdncms.com/chicago/imager/u/magnum/24079543/dark_sisters-1.jpg'
 ]} />
     );
   }

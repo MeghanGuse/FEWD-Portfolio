@@ -5,16 +5,17 @@ class Contact extends Component {
   render() {
     let altText = 'This is a placeholder';
     return (
-    <body className='meghanguse-body'>
+    <div className='meghanguse-body'>
       <section className='contactform-flex-container'>
     		<form className='contactform-form' action='https://www.enformed.io/aqpqxmau'>
     			<h5>Questions? Concerns?  Jokes? Contact me!</h5>
+          <br/>
     				Name: <br />
-    				<input type='text' name='name'/><br />
+    				<input type='text' /><br />
     				Email: <br />
-    				<input type='text' email='email'/><br />
+    				<input type='email'/><br />
     				Subject: <br />
-    				<input type='text' subject='subject'/><br />
+    				<input type='text'/><br />
     				Message: <br />
     				<textarea name='message' rows='10' cols='50'></textarea><br />
     				<button type='submit'>Send Email</button>
@@ -26,7 +27,7 @@ class Contact extends Component {
     			<h3>Thank you!</h3>
     		</div>
     	</section>
-    </body>
+    </div>
     );
   }
 }
