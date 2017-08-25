@@ -10,13 +10,25 @@
 	background: #58beba;
 }
 
-.meghanguse-header {
+.header-wrapper {
+	margin: auto;
+	position: relative;
+}
+
+.meghanguse-logo {
+	color: black;
+	font-size: 36px;
+	top: 0;
 	margin: auto;
 }
+
+	/*position: absolute;*/
+
 .meghanguse-footer {
 	background: #58beba;
 	display: inline;
 	height: 30px;
+	position: relative;
 }
 
 .footer-image {
@@ -83,6 +95,9 @@
 
 /*news page css*/
 
+.accordion-expand {
+	float: right;
+}
 
 /*contact page css*/
 .contactform-flex-container {

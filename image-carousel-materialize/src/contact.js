@@ -11,14 +11,14 @@ class Contact extends Component {
     			<h5>Questions? Concerns?  Jokes? Contact me!</h5>
           <br/>
     				Name: <br />
-    				<input type='text' /><br />
+    				<input type='text' required/><br />
     				Email: <br />
-    				<input type='email'/><br />
+    				<input type='email' required/><br />
     				Subject: <br />
-    				<input type='text'/><br />
+    				<input type='text' required/><br />
     				Message: <br />
     				<textarea name='message' rows='10' cols='50'></textarea><br />
-    				<button type='submit'>Send Email</button>
+    				<button class='waves-light waves-effect' type='submit'>Send Email</button>
     				<input type='hidden' name='*redirect' value='https://www.meghanguse.com/index.html' />
     				<input type='hidden' name='*honeypot' />
     		</form>

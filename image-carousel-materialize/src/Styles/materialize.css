@@ -4513,8 +4513,8 @@ h4 {
 }
 
 h5 {
-  font-size: 1.64rem;
-  line-height: 110%;
+  font-size: 16px;
+  line-height: 100%;
   margin: 0.82rem 0 0.656rem 0;
 }
 
@@ -5731,14 +5731,17 @@ button.btn-floating {
   padding: 1rem;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
 }
 
 .collapsible-header i {
   width: 2rem;
-  font-size: 1.6rem;
+  font-size: .75rem;
   display: inline-block;
   text-align: center;
   margin-right: 1rem;
+  font-size: 18px;
 }
 
 .collapsible-body {
@@ -5766,6 +5769,7 @@ button.btn-floating {
   background-color: transparent;
   border: none;
   line-height: inherit;
+  font-size: 18px;
   height: inherit;
   padding: 0 16px;
 }
