@@ -10,11 +10,11 @@ class HomeCarousel extends Component {
   render() {
     return (
       <Carousel images={[
-HeadshotImage,
-SportsMedley,
-Maskarade,
-BachNyanCat,
-'https://media1.fdncms.com/chicago/imager/u/magnum/24079543/dark_sisters-1.jpg'
+        HeadshotImage,
+        SportsMedley,
+        Maskarade,
+        BachNyanCat,
+        'https://media1.fdncms.com/chicago/imager/u/magnum/24079543/dark_sisters-1.jpg'
 ]} />
     );
   }

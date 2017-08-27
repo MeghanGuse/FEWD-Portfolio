@@ -2734,7 +2734,7 @@ video.responsive-video {
 .breadcrumb [class^="mdi-"], .breadcrumb [class*="mdi-"],
 .breadcrumb i.material-icons {
   display: inline-block;
-  float: left;
+  float: right;
   font-size: 24px;
 }
 
@@ -6459,7 +6459,7 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
 
 .input-field input[type=search] ~ .mdi-navigation-close,
 .input-field input[type=search] ~ .material-icons {
-  position: absolute;
+  float: right;
   top: 0;
   right: 1rem;
   color: transparent;
@@ -7428,7 +7428,7 @@ input[type=range]:focus::-ms-fill-upper {
 .side-nav li > a > i,
 .side-nav li > a > [class^="mdi-"], .side-nav li > a li > a > [class*="mdi-"],
 .side-nav li > a > i.material-icons {
-  float: left;
+  float: right;
   height: 48px;
   line-height: 48px;
   margin: 0 32px 0 0;
@@ -8234,7 +8234,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .carousel .carousel-item {
-  display: none;
+  /*display: none;*/
   width: 400px;
   height: 400px;
   position: absolute;

@@ -18,7 +18,9 @@ import styles from './Styles/main.css';
 const App = () => (
   <Router>
     <header>
+
       <nav className='react-nav'>
+        <span className='meghanguse-logo'>Meghan Guse, Soprano</span>
         <span className='react-nav-links'><Link to='/contact'>Contact</Link></span>
         <span className='react-nav-links'><Link to='/news'>News</Link></span>
         <span className='react-nav-links'><Link to='/recordings'>Recordings</Link></span>

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import HeadshotImage from './images/headshot.jpg';
+import { CSSTransitionGroup } from 'react-transition-group'
+
 
 class About extends Component {
   render() {
