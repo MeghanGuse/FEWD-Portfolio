@@ -9,7 +9,10 @@ class Recordings extends Component {
         <h1 className='recording-header'>Recordings</h1>
           <article className='recording-flex-container'>
     			  <section className='recording-flex-embed'>
-             <Iframe url="https://open.spotify.com/embed/track/0yh6rOLx0Tfhgs9xc66khd"
+             <Iframe url="https://open.spotify.com/embed/track/0yh6rOLx0Tfhgs9xc66khd?wmode=transparent"
+              allowtransparency="true"
+                frameborder="0"
+                wmode="Opaque"
                 width="200px"
                 height="300px"
                 display="initial"
@@ -19,8 +22,10 @@ class Recordings extends Component {
           <div className='recording-spacer'>
           </div>
             <section className='recording-flex-embed'>
-              <Iframe url="https://open.spotify.com/embed/track/28vhx10aZps3SCmTg5Rtt9"
+              <Iframe url="https://open.spotify.com/embed/track/28vhx10aZps3SCmTg5Rtt9?wmode=transparent"
                 width="200px"
+                wmode="Opaque"
+                frameborder="0"
                 height="300px"
                 display="initial"
                 position="relative"
@@ -29,7 +34,9 @@ class Recordings extends Component {
             <div className='recording-spacer'>
             </div>
              <section className='recording-flex-embed'>
-              <Iframe url="https://www.youtube.com/embed/qdyGJUinKGE?ecver=1"
+              <Iframe url="https://www.youtube.com/embed/qdyGJUinKGE?ecver=1?wmode=transparent"
+                frameborder="0"
+                wmode="Opaque"
                 width="300px"
                 height="300px"
                 display="initial"
