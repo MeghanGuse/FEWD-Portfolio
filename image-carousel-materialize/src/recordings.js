@@ -16,6 +16,8 @@ class Recordings extends Component {
                 position="relative"
                 allowFullScreen/>
             </section>
+          <div className='recording-spacer'>
+          </div>
             <section className='recording-flex-embed'>
               <Iframe url="https://open.spotify.com/embed/track/28vhx10aZps3SCmTg5Rtt9"
                 width="200px"
@@ -24,9 +26,11 @@ class Recordings extends Component {
                 position="relative"
                 allowFullScreen/>
     			   </section>
+            <div className='recording-spacer'>
+            </div>
              <section className='recording-flex-embed'>
               <Iframe url="https://www.youtube.com/embed/qdyGJUinKGE?ecver=1"
-                width="400px"
+                width="300px"
                 height="300px"
                 display="initial"
                 position="relative"
